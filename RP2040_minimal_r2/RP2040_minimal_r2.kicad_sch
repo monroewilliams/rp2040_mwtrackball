@@ -5901,17 +5901,6 @@
 		)
 		(uuid "1b7cedb8-1438-48f8-91e9-0aa11af71116")
 	)
-	(label "NCS0.1"
-		(at 245.11 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ed2486b-a3b0-4e3c-acbe-de1945f752bd")
-	)
 	(label "RUN"
 		(at 152.4 165.1 0)
 		(fields_autoplaced yes)
@@ -5956,7 +5945,7 @@
 		)
 		(uuid "33316a49-a578-4d9c-bf87-b945ec79a0ae")
 	)
-	(label "NCS1.0"
+	(label "NCS13"
 		(at 245.11 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6022,7 +6011,7 @@
 		)
 		(uuid "4996c0ec-9dcc-4ce2-abd3-719515968dac")
 	)
-	(label "NCS0.0"
+	(label "NCS06"
 		(at 245.11 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6032,17 +6021,6 @@
 			(justify right bottom)
 		)
 		(uuid "6ed83d0e-650c-461a-87b7-2ab40ec0d14f")
-	)
-	(label "MOSI1"
-		(at 245.11 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6fa3bcb0-ad07-4cb6-9a30-dc613a914bee")
 	)
 	(label "XIN"
 		(at 98.425 215.9 180)
@@ -6098,6 +6076,17 @@
 			(justify right bottom)
 		)
 		(uuid "976a378d-1e54-4fc1-a907-c3c415081e7d")
+	)
+	(label "MOSI1"
+		(at 245.11 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a026fb87-eb8b-4167-9cd9-11338bbe6b01")
 	)
 	(label "QSPI_SCLK"
 		(at 152.4 128.27 0)
@@ -6198,6 +6187,17 @@
 		)
 		(uuid "ed68be1f-96b1-4f29-bc47-25503c7ffe99")
 	)
+	(label "NCS07"
+		(at 245.11 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa10c3ff-a60e-4ac3-bd91-5f702194b4a7")
+	)
 	(global_label "MOSI"
 		(shape input)
 		(at 345.44 87.63 180)
@@ -6238,7 +6238,7 @@
 			)
 		)
 	)
-	(global_label "NCS1.0"
+	(global_label "NCS13"
 		(shape input)
 		(at 345.44 110.49 180)
 		(effects
@@ -6258,7 +6258,7 @@
 			)
 		)
 	)
-	(global_label "NCS0.1"
+	(global_label "NCS07"
 		(shape input)
 		(at 345.44 85.09 180)
 		(effects
@@ -6338,7 +6338,7 @@
 			)
 		)
 	)
-	(global_label "NCS0.0"
+	(global_label "NCS06"
 		(shape input)
 		(at 345.44 60.96 180)
 		(effects
@@ -10019,9 +10019,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "SPI0.1"
+		(property "Value" "SPI0.8"
 			(at 352.552 91.4146 0)
 			(effects
 				(font
@@ -10030,7 +10031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
 			(at 350.52 90.17 0)
 			(effects
 				(font
@@ -10039,7 +10040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-BM06B-SRSS-TB-LF-SN_C160392.pdf"
 			(at 350.52 90.17 0)
 			(effects
 				(font
@@ -10049,6 +10050,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 350.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160392"
 			(at 350.52 90.17 0)
 			(effects
 				(font
@@ -10444,9 +10454,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "SPI1.0"
+		(property "Value" "SPI1.13"
 			(at 352.552 116.8146 0)
 			(effects
 				(font
@@ -10455,7 +10466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
 			(at 350.52 115.57 0)
 			(effects
 				(font
@@ -10464,7 +10475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-BM06B-SRSS-TB-LF-SN_C160392.pdf"
 			(at 350.52 115.57 0)
 			(effects
 				(font
@@ -10474,6 +10485,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 350.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160392"
 			(at 350.52 115.57 0)
 			(effects
 				(font
@@ -11250,9 +11270,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "SPI0.0"
+		(property "Value" "SPI0.6"
 			(at 352.552 67.2846 0)
 			(effects
 				(font
@@ -11261,7 +11282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
 			(at 350.52 66.04 0)
 			(effects
 				(font
@@ -11270,7 +11291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-BM06B-SRSS-TB-LF-SN_C160392.pdf"
 			(at 350.52 66.04 0)
 			(effects
 				(font
@@ -11280,6 +11301,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 350.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160392"
 			(at 350.52 66.04 0)
 			(effects
 				(font
