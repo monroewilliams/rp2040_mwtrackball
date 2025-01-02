@@ -7414,7 +7414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C97521"
+		(property "LCSC" "C190862"
 			(at 97.79 133.35 0)
 			(effects
 				(font
@@ -10369,7 +10369,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C271750"
+		(property "LCSC" "C231329"
 			(at 147.32 165.1 0)
 			(effects
 				(font
@@ -10968,6 +10968,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 328.93 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160388"
 			(at 328.93 184.15 0)
 			(effects
 				(font
@@ -11750,7 +11759,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5916d4b1-199a-4f11-8f00-fb4107777d9e")
 		(property "Reference" "J5"
 			(at 130.302 44.6532 0)
@@ -12041,6 +12050,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160390"
+			(at 350.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f7ea89b6-42ba-48a5-8177-53288a89a5d7")
 		)
@@ -12180,7 +12198,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C271750"
+		(property "LCSC" "C231329"
 			(at 39.37 125.73 0)
 			(effects
 				(font
@@ -12472,6 +12490,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160388"
+			(at 328.93 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80a17850-8394-4c22-937b-b10620744563")
 		)
@@ -12673,6 +12700,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160388"
+			(at 328.93 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "401e265e-11b8-4150-a802-6c7f699b00cf")
 		)
@@ -12736,6 +12772,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 328.93 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160388"
 			(at 328.93 212.09 0)
 			(effects
 				(font
@@ -13256,6 +13301,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160388"
+			(at 328.93 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e40c4acc-c932-47a0-b775-ec72193d2d1b")
 		)
@@ -13534,6 +13588,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 328.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160388"
 			(at 328.93 156.21 0)
 			(effects
 				(font
