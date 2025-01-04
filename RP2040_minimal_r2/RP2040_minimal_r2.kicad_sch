@@ -6619,6 +6619,17 @@
 		)
 		(uuid "4996c0ec-9dcc-4ce2-abd3-719515968dac")
 	)
+	(label "MOSI"
+		(at 245.11 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b393177-50a2-46c1-9e05-dac36b7fd977")
+	)
 	(label "PIEZO"
 		(at 245.11 172.72 180)
 		(fields_autoplaced yes)
@@ -6640,17 +6651,6 @@
 			(justify right bottom)
 		)
 		(uuid "65329bc1-b316-41d1-b4a5-a2f133af4219")
-	)
-	(label "NCS06"
-		(at 245.11 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ed83d0e-650c-461a-87b7-2ab40ec0d14f")
 	)
 	(label "I2C0_SCL"
 		(at 245.11 114.3 180)
@@ -6718,17 +6718,6 @@
 		)
 		(uuid "96cdad23-2bd1-4bee-bdfd-a390e1eb41d8")
 	)
-	(label "MOSI"
-		(at 245.11 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "976a378d-1e54-4fc1-a907-c3c415081e7d")
-	)
 	(label "GPIO19"
 		(at 245.11 160.02 180)
 		(fields_autoplaced yes)
@@ -6783,6 +6772,17 @@
 			(justify right bottom)
 		)
 		(uuid "a59b91e1-d623-42d7-921f-9c87778d1638")
+	)
+	(label "GPIO16"
+		(at 245.11 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a96238e3-b533-46e7-afba-5308dffccd3d")
 	)
 	(label "QSPI_SD0"
 		(at 152.4 116.84 0)
@@ -6839,6 +6839,17 @@
 		)
 		(uuid "ca225df2-e0d6-475a-9fb5-5e2248065199")
 	)
+	(label "GPIO17"
+		(at 245.11 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cacf350f-80c9-42bd-8c1a-83d78f83b2fc")
+	)
 	(label "QSPI_SD0"
 		(at 71.12 130.81 0)
 		(fields_autoplaced yes)
@@ -6883,6 +6894,17 @@
 		)
 		(uuid "d63bbef4-046b-4827-9f29-0bf28fa28525")
 	)
+	(label "NCS09"
+		(at 245.11 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d89851ee-33c7-4bf8-b854-1ea3b68c524d")
+	)
 	(label "GPIO18"
 		(at 245.11 157.48 180)
 		(fields_autoplaced yes)
@@ -6916,8 +6938,8 @@
 		)
 		(uuid "ed68be1f-96b1-4f29-bc47-25503c7ffe99")
 	)
-	(label "NCS07"
-		(at 245.11 129.54 180)
+	(label "NCS08"
+		(at 245.11 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6925,9 +6947,9 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fa10c3ff-a60e-4ac3-bd91-5f702194b4a7")
+		(uuid "fca1c0ba-3dd2-4c06-9276-feb48f80d5e6")
 	)
-	(global_label "GPIO20"
+	(global_label "GPIO18"
 		(shape input)
 		(at 323.85 184.15 180)
 		(effects
@@ -7027,7 +7049,7 @@
 			)
 		)
 	)
-	(global_label "NCS07"
+	(global_label "NCS09"
 		(shape input)
 		(at 345.44 85.09 180)
 		(effects
@@ -7067,7 +7089,7 @@
 			)
 		)
 	)
-	(global_label "GPIO18"
+	(global_label "GPIO16"
 		(shape input)
 		(at 323.85 156.21 180)
 		(effects
@@ -7087,7 +7109,7 @@
 			)
 		)
 	)
-	(global_label "GPIO22"
+	(global_label "GPIO20"
 		(shape input)
 		(at 323.85 212.09 180)
 		(effects
@@ -7167,7 +7189,7 @@
 			)
 		)
 	)
-	(global_label "NCS06"
+	(global_label "NCS08"
 		(shape input)
 		(at 345.44 60.96 180)
 		(effects
@@ -7307,7 +7329,7 @@
 			)
 		)
 	)
-	(global_label "GPIO23"
+	(global_label "GPIO21"
 		(shape input)
 		(at 323.85 224.79 180)
 		(effects
@@ -7327,7 +7349,7 @@
 			)
 		)
 	)
-	(global_label "GPIO21"
+	(global_label "GPIO19"
 		(shape input)
 		(at 323.85 196.85 180)
 		(effects
@@ -7367,7 +7389,7 @@
 			)
 		)
 	)
-	(global_label "GPIO19"
+	(global_label "GPIO17"
 		(shape input)
 		(at 323.85 171.45 180)
 		(effects
@@ -10538,6 +10560,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 128.27 46.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "03c98d0c-c907-42f2-b8c0-3f2b3c2cabd8")
+		(property "Reference" "J5"
+			(at 130.302 46.7868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "USB"
+			(at 130.302 44.4754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3718d94-e9f8-4215-8179-641373c64027")
+		)
+		(pin "2"
+			(uuid "bb489920-983b-4e54-95ba-d2d3077ea32c")
+		)
+		(pin "3"
+			(uuid "35c4572a-77ce-47c5-ad5e-503aba497580")
+		)
+		(pin "4"
+			(uuid "4be36d14-be18-4fd4-8b19-77a5bbf7a551")
+		)
+		(instances
+			(project "RP2040_minimal_r2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PMW3360-rescue:GND-power")
 		(at 335.28 95.25 0)
 		(unit 1)
@@ -11291,7 +11400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "B20"
+		(property "Value" "B18"
 			(at 331.47 185.4199 0)
 			(effects
 				(font
@@ -11596,7 +11705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SPI0.8"
+		(property "Value" "SPI0.9"
 			(at 352.552 91.4146 0)
 			(effects
 				(font
@@ -12104,92 +12213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 128.27 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "5916d4b1-199a-4f11-8f00-fb4107777d9e")
-		(property "Reference" "J5"
-			(at 130.302 44.6532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "USB"
-			(at 130.302 46.9646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 128.27 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 128.27 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab9e2ae2-cafa-430f-8628-cea563167d2f")
-		)
-		(pin "2"
-			(uuid "605be21e-4ca2-4b04-8497-afc0fef0b9a6")
-		)
-		(pin "3"
-			(uuid "bd52afc1-79b2-4409-bef9-7cdde15c91b8")
-		)
-		(pin "4"
-			(uuid "132d7668-79a6-4719-bf92-0b02576d5b04")
-		)
-		(instances
-			(project "RP2040_minimal_r2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PMW3360-rescue:+3V3-power")
 		(at 340.36 77.47 0)
 		(unit 1)
@@ -12273,7 +12296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Breakout"
+		(property "Value" "GPIO26-29"
 			(at 287.782 210.7946 0)
 			(effects
 				(font
@@ -12430,7 +12453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "I2C0"
+		(property "Value" "I²C0"
 			(at 353.06 142.2399 0)
 			(effects
 				(font
@@ -12870,7 +12893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "B21"
+		(property "Value" "B19"
 			(at 331.47 198.1199 0)
 			(effects
 				(font
@@ -13080,7 +13103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "B19"
+		(property "Value" "B17"
 			(at 331.47 172.7199 0)
 			(effects
 				(font
@@ -13160,7 +13183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "B22"
+		(property "Value" "B20"
 			(at 331.47 213.3599 0)
 			(effects
 				(font
@@ -13589,7 +13612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SPI0.6"
+		(property "Value" "SPI0.8"
 			(at 352.552 67.2846 0)
 			(effects
 				(font
@@ -13681,7 +13704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "B23"
+		(property "Value" "B21"
 			(at 331.47 226.0599 0)
 			(effects
 				(font
@@ -14061,7 +14084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "B18"
+		(property "Value" "B16"
 			(at 331.47 157.4799 0)
 			(effects
 				(font

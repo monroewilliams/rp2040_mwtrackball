@@ -1,8 +1,8 @@
-# RP2040-based trackball main board
+# rp2040-based trackball main board
 
 This work is based on version 2 of the "rp2040 Minimal KiCad" sample provided by the Raspberry Pi foundation [here](https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip).
 
-It is inspired by (although not directly based on) jfedor2's excellent [RP2040+PMW3360 board](https://github.com/jfedor2/rp2040-pmw3360). (Although I did borrow the USB header pinout directly from there.)
+It is inspired by (although not directly based on) jfedor2's excellent [RP2040+PMW3360 board](https://github.com/jfedor2/rp2040-pmw3360). (Although I did borrow the USB header pinout directly from that project.)
 
 I've modified it for the specific needs of [my trackball design](https://github.com/monroewilliams/trackball), with a few other additions that may make it useful for other experimentation as well. I intend it to pair with a [breakout board design](https://github.com/monroewilliams/pmw3360-breakout) with matching JST plugs so that off-the-shelf cables can be used for assembly (instead of the hand-built sensor cables the old design needed).
 
