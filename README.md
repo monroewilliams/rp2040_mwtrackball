@@ -14,6 +14,10 @@ The button connectors are also JST-SH, but just two pins each (signal and ground
 
 There's also an on-board surface mount piezo speaker, which my trackball design uses to generate scrolling clicks when using twist-to-scroll. It should be usable for other speaker-related duties as needed.
 
-Additionally, I added a connector that I intend to be compatible with Adafruit's ["STEMMA QT" I2C connection](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma), and an additional 6 pin JST-SH breakout connector for a few of the other unused pins on the rp2040 (GPIOs 26-29, which happen to be the ADC-capable pins, as well as power and ground).
+Additionally, I added a connector that is compatible with Adafruit's ["STEMMA QT" I2C connection](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma), and an additional 6 pin JST-SH breakout connector for a few of the other unused pins on the rp2040 (GPIOs 26-29, which happen to be the ADC-capable pins, as well as power and ground).
+
+The final connector is a SWD debug connector that should conform to the [Raspberry Pi 3-pin Debug Connector Specification](https://datasheets.raspberrypi.com/debug/debug-connector-specification.pdf)
+
+And just to finish things off, I included a NeoPixel (a.k.a. WS2812) RGB LED. Adding this to the board bumps it from JLCPCB's "Economic" tier to their "Standard" tier, which is a bit more expensive, so if you're having a batch of these made and would rather go the cheaper route it can just be omitted (choose not to place it when reviewing the BOM on their site).  This same component is sold in packs of 10 by Adafruit [here](https://www.adafruit.com/product/4684), so it could be added after the fact (assuming you can hand-solder a 2mm square SMD component).
 
 Any issues with the changes I made to this layout are solely my fault. I've attempted to maintain the spirit of the rp2040 reference design, but this is my first attempt at designing a board with a microcontroller, so it would not surprise me if it has problems. Caveat emptor, etc, etc.
